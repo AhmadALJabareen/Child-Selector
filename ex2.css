@@ -1,0 +1,13 @@
+div{
+    background-color: red;
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 2px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+div:nth-child(2n){
+    display: none;
+}

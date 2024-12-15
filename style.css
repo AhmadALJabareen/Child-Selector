@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    display: inline-block;
+}
+div:nth-child(2n){
+    background-color: green;
+    position: relative;
+    top: 20px;
+}
